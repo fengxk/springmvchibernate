@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{ margin:0; padding:0; border:0; font:12px "Hiragino Sans GB"; background:url(../images/1.jpg) center top no-repeat #FFF;}
+body,div,p,ul,li,dl,dt,dd,input,h1,h2,h3,h4,h5,h6,span{padding:0; margin:0; list-style:none;}
+/*左*/
+.login{ 
+	position:fixed; 
+	top:50%; 
+	left:50%; 
+	width:370px; 
+	height:330px; 
+	margin-top:-180px; 
+	margin-left:-190px; 
+	padding:5px;
+	box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3); 
+	border:1px solid #CCC; 
+	background:#fff;
+}
+.login h2{
+	font-family:"Hiragino Sans GB","Microsoft Yahei"; 
+	font-size:20px; 
+	text-align:center;
+	padding:18px 0;
+	font-weight:normal;
+}
+.login_in{ 
+	width:298px; 
+	height:166px; 
+	padding:0 0 0 44px;
+}
+.login_in li{ 
+	padding-bottom:10px; 
+	width:280px; 
+	height:46px; 
+	position:relative;
+}
+.login_in li span{ 
+	float:left; 
+	width:63px; 
+	height:40px; 
+	color:#000; 
+	line-height:40px; 
+	font-family:"Hiragino Sans GB","Microsoft Yahei"; 
+	font-size:16px;
+}
+.login_in li input{ 
+	float:left; 
+	width:202px; 
+	height:36px; 
+	line-height:36px;
+	ime-mode: disabled; 
+	color:#333; 
+	font-family:Verdana,Tahoma,Arial; 
+	border:1px solid #d7d7d7; 
+	border-radius:3px; 
+	background:#fff; 
+	padding-left:5px;
+}
+.entry_btn{ 
+	width:150px; 
+	height:41px; 
+	background:#2795dc; 
+	border-color: -moz-use-text-color -moz-use-text-color #0078b3; 
+	border-radius:4px; 
+	border-width:medium medium 3px; 
+	border-style: none none solid; 
+	text-align:center; 
+	line-height:41px; 
+	color:#fff; 
+	font-size:16px;
+	padding:0 10px; 
+	cursor:pointer; 
+	font-family:"Microsoft Yahei",Arial,Helvetica,sans-serif; 
+	outline:medium none;
+	margin:0 auto;
+}
+.entry_btn:hover{
+	background:#0081c1;
+	border-bottom:3px solid #006698;
+}
+
+.verification{ 
+	width:200px; 
+	height:42px; 
+	padding-left:108px; 
+	color:#ea5504; 
+	font-size:12px;
+	margin-top:-10px;
+}
+.verification_code{ 
+	width:200px; 
+	height:34px;
+}
+.verification span{ 
+	float:left;
+}
+.verification .invisibility { 
+	line-height:24px; 
+	padding-left:8px; 
+	text-decoration:underline; 
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

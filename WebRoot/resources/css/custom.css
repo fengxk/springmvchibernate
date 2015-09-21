@@ -1,0 +1,38 @@
+.table_con{ 
+border-collapse: collapse; 
+border: 0px solid #999; 
+width: 30%;
+font-size:13px; 
+font-family:Arial;
+margin: 5px 0;
+background-color: #E9F1FC;
+} 
+.table_con td { 
+border-top: 0; 
+border-right: 1px solid #999; 
+border-bottom: 1px solid #999; 
+border-left: 0; 
+} 
+.table_con tr.lastrow td { 
+border-bottom: 0; 
+} 
+.table_con tr td.lastCol { 
+border-right: 0; 
+} 
+
+.table_tatil{
+height: 102px;
+width: 100%;
+background-color: #FDF2EF;
+}
+.table_tatil td{
+margin-left:10%;  
+border-right: 0px solid #999;
+border-bottom: 0px solid #999;
+}
+.input_nobord{
+border: 0px solid #c00;
+background-color: #FDF2EF;
+font-size:150%;
+margin-left: 20%;
+}
